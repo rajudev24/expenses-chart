@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.tab-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f5f6fa;
+  border-radius: 30px;
+  padding: 10px;
+  width: 400px;
+}
+
+.tab-button {
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 50px;
+  border: 0px;
+}
+.tab-button:focus {
+  color: #4c49ed;
+}
