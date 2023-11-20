@@ -1,7 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 550px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .tab-section {
@@ -29,4 +44,58 @@
 }
 .tab-button:focus {
   color: #4c49ed;
+}
+
+.category {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-item p {
+  margin-left: 8px;
+}
+
+.color-1 {
+  background-color: #4c49ed;
+  width: 50px;
+  height: 14px;
+  border-radius: 30px;
+  border: 0px;
+}
+.color-2 {
+  background-color: #9d9bf4;
+  width: 50px;
+  height: 14px;
+  border-radius: 30px;
+  border: 0px;
+}
+.color-3 {
+  background-color: #4fd18b;
+  width: 50px;
+  height: 14px;
+  border-radius: 30px;
+  border: 0px;
+}
+.color-4 {
+  background-color: #141197;
+  width: 50px;
+  height: 14px;
+  border-radius: 30px;
+  border: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 400px;
+  }
+  .category {
+    flex-direction: column;
+    align-items: start;
+  }
 }
