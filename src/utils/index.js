@@ -34,3 +34,7 @@ export const chartData = [
 ];
 
 export const colors = ["#4C49ED", "#9D9BF4", "#4FD18B", "#141197"];
+
+export function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
